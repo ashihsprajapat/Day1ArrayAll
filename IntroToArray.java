@@ -11,11 +11,6 @@ class IntroToArray {
 
         int arr2[] = { 2, 5, 7, 1 };
         int arr3[] = new int[arr.length];
-        for (int i : arr2) {
-            arr3[i] = arr2[i];
-        }
-        for (int i : arr3) {
-            System.out.println(i);
-        }
+
     }
 }
